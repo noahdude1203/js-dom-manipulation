@@ -4,8 +4,10 @@ var body = document.body
 console.log("== body.childNodes:", body.childNodes)
 
 var nav = body.childNodes[3]
-<<<<<<< HEAD
 console.log("== nav.parentNode:", nav.parentNode)
-=======
-console.log("== nav.parentNode:", nav.parentNode)
->>>>>>> 8af806e79df2807704ba9e7e45a8fbbe11197622
+
+var photoCardContainer = document.getElementById("photo-card-container")
+console.log("== photoCardContaine:", photoCardContainer)
+
+var photoCards = document.getElementsByClassName("photo-card")
+console.log("== photoCards:", photoCards)
